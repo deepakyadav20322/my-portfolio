@@ -19,8 +19,8 @@ const handleSubmit = (e)=>{
 
     </div>
     <div className='bg-[#f8fbfb] px-4 py-16 my-10 rounded-md'>
-      <p className='text-2xl font-normal mb-5'>I'm Always Open To Discussing Product</p>
-      <h2 className='font-semibold text-2xl'>design work or partnerships.</h2>
+      <p className='text-2xl font-normal mb-5'>I am Always Open To Discussing Product or ideas.</p>
+      <h2 className='font-semibold text-2xl'>design, work or partnerships.</h2>
       <form action="" onSubmit={handleSubmit}>
         <div className='flex flex-col justify-center items-start w-full gap-y-1 mt-10'>
         <label htmlFor="name" className='text-[#44566c]'>Name<span className='text-red-500 px-1'>*</span></label>

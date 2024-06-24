@@ -14,7 +14,7 @@ const About = () => {
 
     </div>
     <div className='about-content flex flex-col justify-start items-center gap-y-8 mt-5 mb-3 text-base text-[#44566c]'>
-        <p className=''>I'm Creative Designer and Fullstack Developer, working in web development. I enjoy turning complex problems into simple, beautiful and intuitive designs.</p>
+        <p className=''>I amm Creative Designer and Fullstack Developer, working in web development. I enjoy turning complex problems into simple, beautiful and intuitive designs.</p>
         <p>My aim is to bring across your idea and identity in the most creative way. I created website for many startups and business.</p>
     </div>
     <div className=''>
