@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-
+import { FaArrowDownLong } from "react-icons/fa6";
 const Indicator = () => {
         const handleScroll = () => {
           window.scrollTo({
@@ -12,7 +12,7 @@ const Indicator = () => {
   return (
     <div className="">
         <div className="scroll-indicator rounded-full w-12 h-12" onClick={handleScroll}>
-      <span className="arrow text-white">&#8595;</span> {/* You can replace this with an actual arrow icon */}
+      <span className="arrow text-white"><FaArrowDownLong/></span> {/* You can replace this with an actual arrow icon */}
     </div>
 
     </div>
