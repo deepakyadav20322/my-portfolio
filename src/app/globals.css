@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+
+
+
+.main-bg{
+  background-image:url('/Images/page-bg-1.jpg');
+  background-position:left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+/* project live button pulse -------------------------- */
+.pulse{
+  height: 6px;
+  width: 6px;
+  /* background: #0ef; */
+  position: relative;
+  border-radius: 50%;
+ 
+}
+.pulse span{
+  left: 13px;
+  top: 3px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: .8;
+  background-color: red;
+  border-radius: inherit;
+  animation: pulseAnimate 4s ease-out infinite;
+  animation-delay: calc(1.2s * var(--i));
+}
+
+
+@keyframes pulseAnimate{
+  100%{
+      transform: scale(3);
+      opacity: 0;
+  }
+}
+
+
+
+/* -----------------------  Scroll Indicator CSS  ---------------------------->>>>>>>>>>>>>>>>>>>>>>>> */
+
+.scroll-indicator {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  z-index: 50; /* Adjust based on your layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(7, 120, 240);
+
+}
+
+.arrow {
+  font-size: 24px; /* Adjust size as needed */
+  color: white; /* Adjust color as needed */
+  animation: bounce 2s infinite; /* Simple animation to draw attention */
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* @layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
