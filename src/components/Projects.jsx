@@ -9,13 +9,7 @@ const Projects = () => {
       projectImageLink: "githubsearchScreenshot.png",
       projectDuration: "",
     },
-    {
-      projectName: "Web Cart",
-      projectLiveLink: "https://web-cart-app.netlify.app/",
-      projectGithubLink: "https://github.com/deepakyadav20322/E-Commerce-Cart",
-      projectImageLink: "webCartScreenshot.png",
-      projectDuration: "",
-    },
+   
     {
       projectName: "Blog Web App",
       projectLiveLink:
@@ -23,6 +17,13 @@ const Projects = () => {
       projectGithubLink:
         "https://github.com/deepakyadav20322/Blog-app-frontend/tree/main/blog_app-fronted",
       projectImageLink: "blogImgScreenshot.png",
+      projectDuration: "",
+    },
+    {
+      projectName: "Web Cart",
+      projectLiveLink: "https://web-cart-app.netlify.app/",
+      projectGithubLink: "https://github.com/deepakyadav20322/E-Commerce-Cart",
+      projectImageLink: "webCartScreenshot.png",
       projectDuration: "",
     },
     {

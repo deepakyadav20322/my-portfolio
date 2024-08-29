@@ -19,7 +19,9 @@ const Education = () => {
  const Knowledge = ["Next.js","React.js","Node.js","MongoDb","PostgreSQL","SQL","Docker","AWS","Javascript","C++",'Redis',"Responsive Design"]
   const exprienceHistory = [
     
-    { company: 'Prodigy Infotech', timeLineFrom: 'September 2023', timeLineTo: 'August 2023', workArea:"Web development internship",desc:"Doing one month internship in web devlepment" }, 
+    { company: 'EZSync', timeLineFrom: 'April 2024', timeLineTo: 'June 2024', workArea:"Web development internship",desc:"Made An AI interview plateform by using MERN stack and Redux and Deploy on AWS." }, 
+    
+    { company: 'Prodigy Infotech', timeLineFrom: 'September 2023', timeLineTo: 'August 2023', workArea:"Web development internship",desc:"Creating Responsive web apps by using React, javascript ,Tailwind CSS." }, 
     
   ];
 
@@ -67,7 +69,7 @@ const Education = () => {
               <div className="flex flex-row justify-start items-start gap-x-6">
                 <div className="flex flex-col justify-start items-start leading-[1.8] text-[#44566c]">
                   <p className="">{ex.timeLineTo}<span className="mx-2 h-[2px] w-3 align-middle inline-block bg-[#44566c] "></span> {ex.timeLineFrom}</p>
-                  <h2 className="font-semibold text-xl mt-1  mb-3">
+                  <h2 className="font-semibold text-lg mt-1  mb-3">
                    {ex.workArea}
                   </h2>
                   <p className="font-medium text-[#1b74e4]"> Company:<span className="text-[#000]">{" "}{ex.company}</span></p>
