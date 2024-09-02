@@ -41,6 +41,13 @@ const Projects = () => {
       projectImageLink: "docWave.png",
       projectDuration: "",
     },
+    {
+      projectName: "AI-SAAS-TEMPLATE",
+      projectLiveLink: "https://ezsyncs.vercel.app/",
+      projectGithubLink: "https://github.com/deepakyadav20322/AI-SAAS-TEMPLATE",
+      projectImageLink: "AI-SAAS-TEMPLATE.png",
+      projectDuration: "",
+    },
   ];
 
   return (
