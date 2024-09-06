@@ -48,6 +48,13 @@ const Projects = () => {
       projectImageLink: "AI-SAAS-TEMPLATE.png",
       projectDuration: "",
     },
+    {
+      projectName: "Design-Agency-Template",
+      projectLiveLink: "https://degin-agency-template.vercel.app/",
+      projectGithubLink: "https://github.com/deepakyadav20322/degin-agency-template",
+      projectImageLink: "design-template.png",
+      projectDuration: "",
+    },
   ];
 
   return (
