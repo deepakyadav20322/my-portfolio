@@ -13,7 +13,7 @@ const Projects = () => {
     {
       projectName: "Blog Web App",
       projectLiveLink:
-        "https://blog-app-frontend-3o4yb8dv8-deepakyadav20322.vercel.app/",
+        "https://blog-app-frontend-pi.vercel.app/",
       projectGithubLink:
         "https://github.com/deepakyadav20322/Blog-app-frontend/tree/main/blog_app-fronted",
       projectImageLink: "blogImgScreenshot.png",
