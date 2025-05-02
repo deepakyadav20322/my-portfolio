@@ -14,7 +14,7 @@ import Link from 'next/link'
 const Profile = () => {
   return (
  
-    <div className='personal-Info-area  sticky top-0 '>
+    <div className='personal-Info-area  sticky top-0 text-black '>
         <div className='flex flex-col justify-start items-center '>
           <div className='Image-wrapper rounded-lg bg-slate-300 lg:w-56 lg:h-56 xl:h-60 xl:w-60 overflow-hidden '>
             <Image alt='profile-img' src={"/Images/profImg.jpg"} width={240} height={240} loading='lazy' className='rounded-lg'/>
@@ -39,7 +39,7 @@ const Profile = () => {
         </Link>
         </div>
         <div className='extra-communication-channnel px-5 md:px-3 my-6'>
-        <div className='bg-[#f3f6f6] lg:min-w-56 xl:min-w-72 px-3 py-6 w-full m-auto flex flex-col justify-center  items-start rounded-xl gap-3 '>
+        <div className='bg-[#f3f6f6] text-black lg:min-w-56 xl:min-w-72 px-3 py-6 w-full m-auto flex flex-col justify-center  items-start rounded-xl gap-3 '>
           {
           [{name:'email',val:"deepakyadav20322@gmail.com"},{name:'phone',val:"9793435373"},{name:"location",val:"Uttar Pradesh"}].map((item)=>(
             <div key={item.name} className='phone flex flex-row justify-start items-center gap-3 border-b-[1px] border-gray-300 w-full pb-3'>
@@ -62,7 +62,7 @@ const Profile = () => {
         </div>
         </div>
         <div className='flex flex-row justify-center items-center w-full text-lg font-semibold'>
-        <a href={'/Images/Resume_deepak_pu.pdf'} download={'deepak_yadav_Reasume'} className='text-white bg-[#1b74e4] rounded-xl px-6 py-3 outline-none flex flex-row justify-center items-center gap-x-2'><PiDownloadBold size={25}/>Download CV</a>
+        <a href={'/Images/Deepak_Yadav_M'} download={'deepak_yadav_Reasume'} className='text-white bg-[#1b74e4] rounded-xl px-6 py-3 outline-none flex flex-row justify-center items-center gap-x-2'><PiDownloadBold size={25}/>Download CV</a>
         </div>
     </div>
     

@@ -10,7 +10,7 @@ export default function Home() {
   
   return (
    <div className="main-bg relative">
-    <main className="max-w-[1320px] w-full m-auto px-6 sm:px-16 lg:px-12 xl:px-3">
+    <main className="max-w-[1320px] w-full m-auto px-6 sm:px-16 lg:px-12 xl:px-3 text-black">
       <div className="flex justify-start items-center w-full">
   <Header/>
       </div>
